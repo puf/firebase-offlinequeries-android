@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Firebase offline queries</string>
+
+    <string name="hello_world">Enter a number of items to query and click the button:</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="spinnerItems">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+</resources>
