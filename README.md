@@ -1,6 +1,8 @@
 # firebase-offlinequeries-android
 Sample program for Offline Query capabilities of Firebase on Android
 
+![Screenshot of app on Nexus 5](Screen Shot 2015-05-24 at 4.51.33 PM.png)
+
 1. First fire a query to retrieve 4 items. You will see 4 child_added events and a value event for the 4 children.
 2. Next, switch to airplane mode and wait for the app to report it has disconnected.
 3. Now fire the query again. You will see the same results as before.
