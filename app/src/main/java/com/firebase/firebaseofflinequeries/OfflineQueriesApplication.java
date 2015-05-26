@@ -12,6 +12,8 @@ public class OfflineQueriesApplication extends Application {
         Log.i("OfflineDinosaurs", "OfflineQueriesApplication.onCreate");
 
         Firebase.setAndroidContext(this);
-        Firebase.getDefaultConfig().enablePersistence();
+
+        // Uncomment the next line to enable disk persistence, which means that the data will be available upon app restarts
+        //Firebase.getDefaultConfig().setPersistenceEnabled(true);
     }
 }
